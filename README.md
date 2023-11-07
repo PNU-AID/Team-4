@@ -9,3 +9,18 @@
 ||김명석|https://blog.naver.com/mangsgi/223228641995|
 ||이승재|https://blog.naver.com/leesj6717/223231224064|
 ||박재홍|https://blog.naver.com/qkrwoghd2000/223231086443|
+|1107|김세이||
+||김명석|https://blog.naver.com/mangsgi/223228641995|
+||이승재||
+||박재홍||
+
+# 스터디 내용
+> ## 23.11.07
+>   변환기 : 특성을 만들거나 전처리하기 위한 클래스 
+>   => fit(), transform() 메서드 제공
+>   => p.154의 transform과 p.159의 transform 메서드 비교
+>   - standardscaler : (정규화) 특성의 스케일을 정규화한다. 특성별로 값의 범위가 다르면 학습 시 원하는 결과값이 나오지 않을 수 있기 때문.(2장 참고)
+>   fit():데이터 학습, transform():실제로 적용
+>     - 주의 : 테스트 데이터에서는 fit을 사용하지 않도록 해야 한다. 만약 테스트 데이터에서 fit하면 학습 데이터에서의 기준을 잃게 됨.
+>   - polynomialfeatures : (다중회귀)특성을 늘린다.
+>   ex) [[2,3]]->[[1,2,3,4,6,9]]
